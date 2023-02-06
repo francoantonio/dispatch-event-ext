@@ -1,0 +1,10 @@
+{
+  "name": "back",
+  "description": "Dispara el evento en la pagina actual. Modificar archivo popup.js y agregar el evento custom",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
